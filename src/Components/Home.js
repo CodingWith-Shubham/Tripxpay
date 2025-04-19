@@ -262,7 +262,22 @@ const FeatureItem = ({ emoji, title }) => (
 </div>
 
         </div>
-      
+        <div className="lg:ml-80 relative flex z-20 h-[400px] lg:mb-40">
+          <div>
+          <h1 className="md:text-4xl lg:text-5xl font-bold mb-4 text-black lg:mt-32">
+  <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-400 text-6xl lg:text-7xl font-extrabold">
+    Wander
+  </span>{' '}
+  the world freely. We take care of the money!
+</h1>
+<p className="text-base md:text-lg text-gray-600 mt-4 font-semibold">
+    Travel around the globe without thinking twice about money. Freedom to explore, backed by TripXpay.  Explore boldly. We handle the cost of your journey.
+  </p>
+
+          </div>
+  <Earth3D />
+</div>
+
         {/* New Feature Cards Section (Stripe-like) with Framer Motion */}
         <div className="w-full bg-gradient-to-b from-transparent to-gray-900 pt-20 pb-24">
           <div className="container mx-auto px-4">
